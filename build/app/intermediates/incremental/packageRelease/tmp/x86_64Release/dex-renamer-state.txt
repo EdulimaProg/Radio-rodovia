@@ -1,0 +1,4 @@
+#Wed Mar 30 16:02:24 GFT 2022
+base.0=C\:\\Users\\Eduardo Lima Work\\Desktop\\Radio v 1.0.4\\Radio v 1.0.4\\Radio Flutter App\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

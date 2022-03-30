@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Eduardo Lima Work\\Desktop\\Radio v 1.0.4\\Radio v 1.0.4\\Radio Flutter App\\build\\path_provider_android\\intermediates\\merged_res\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Eduardo Lima Work\\.gradle\\caches\\transforms-3\\e7d0aa49312874ed8b8bf209f9c6c0bb\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo Lima Work\\Desktop\\Radio v 1.0.4\\Radio v 1.0.4\\Radio Flutter App\\build\\path_provider_android\\intermediates\\merged_res\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Eduardo Lima Work\\.gradle\\caches\\transforms-3\\e7d0aa49312874ed8b8bf209f9c6c0bb\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo Lima Work\\Desktop\\Radio v 1.0.4\\Radio v 1.0.4\\Radio Flutter App\\build\\path_provider_android\\intermediates\\merged_res\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Eduardo Lima Work\\.gradle\\caches\\transforms-3\\e7d0aa49312874ed8b8bf209f9c6c0bb\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo Lima Work\\Desktop\\Radio v 1.0.4\\Radio v 1.0.4\\Radio Flutter App\\build\\path_provider_android\\intermediates\\merged_res\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Eduardo Lima Work\\.gradle\\caches\\transforms-3\\e7d0aa49312874ed8b8bf209f9c6c0bb\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    }
+]

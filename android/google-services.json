@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "751234824712",
+    "project_id": "webradiorodovia-35f4d",
+    "storage_bucket": "webradiorodovia-35f4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751234824712:android:9e4abcb4575927dd292fbd",
+        "android_client_info": {
+          "package_name": "com.app.radiorodovia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751234824712-3v2v6evmsvcgir7sceq5ao405brmphfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHfALIuC8DUO4LvE1kyOPwMMSIV5U4ghs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751234824712-3v2v6evmsvcgir7sceq5ao405brmphfs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "751234824712-tuvajllug0kspvmd31nqoolbuhdr0iim.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.radiorodovia"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">751234824712-3v2v6evmsvcgir7sceq5ao405brmphfs.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">751234824712</string>
+    <string name="google_api_key" translatable="false">AIzaSyAHfALIuC8DUO4LvE1kyOPwMMSIV5U4ghs</string>
+    <string name="google_app_id" translatable="false">1:751234824712:android:9e4abcb4575927dd292fbd</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAHfALIuC8DUO4LvE1kyOPwMMSIV5U4ghs</string>
+    <string name="google_storage_bucket" translatable="false">webradiorodovia-35f4d.appspot.com</string>
+    <string name="project_id" translatable="false">webradiorodovia-35f4d</string>
+</resources>

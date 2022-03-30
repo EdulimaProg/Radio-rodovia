@@ -1,0 +1,726 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.radiorodovia"
+4    android:versionCode="7"
+5    android:versionName="1.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:4:5-67
+14-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:5:5-68
+15-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:5:22-65
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:6:5-80
+16-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:6:22-78
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:7:5-66
+17-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:7:22-63
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:8:5-76
+18-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:8:22-74
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+19-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+20    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+20-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+20-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+21    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+21-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+21-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Android package visibility setting -->
+22-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:25:5-79
+22-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:25:22-76
+23    <queries>
+23-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:28:5-44:15
+24
+25        <!-- For browser content -->
+26        <intent>
+26-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:31:9-37:18
+27            <action android:name="android.intent.action.VIEW" />
+27-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:32:13-65
+27-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:32:21-62
+28
+29            <category android:name="android.intent.category.BROWSABLE" />
+29-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:34:13-74
+29-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:34:23-71
+30
+31            <data android:scheme="https" />
+31-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:36:13-44
+31-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:36:19-41
+32        </intent>
+33        <!-- End of browser content -->
+34        <!-- For CustomTabsService -->
+35        <intent>
+35-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:40:9-42:18
+36            <action android:name="android.support.customtabs.action.CustomTabsService" />
+36-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:41:13-90
+36-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:41:21-87
+37        </intent>
+38        <!-- End of CustomTabsService -->
+39    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+40    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+40-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:28:5-82
+40-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:28:22-79
+41    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+41-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:26:5-110
+41-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:26:22-107
+42
+43    <application
+43-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:10:5-51:21
+44        android:allowBackup="false"
+44-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:15:9-36
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.6.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\e7d0aa49312874ed8b8bf209f9c6c0bb\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:extractNativeLibs="false"
+48        android:icon="@mipmap/ic_launcher"
+48-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:14:9-43
+49        android:label="Radio rodovia"
+49-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:12:9-38
+50        android:usesCleartextTraffic="true" >
+50-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:13:9-44
+51
+52        <!-- Google Ads Admob configuration -->
+53        <meta-data
+53-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:18:9-20:69
+54            android:name="com.google.android.gms.ads.APPLICATION_ID"
+54-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:19:13-69
+55            android:value="ca-app-pub-3940256099942544~3347511713" />
+55-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:20:13-67
+56
+57        <activity
+57-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:22:9-44:20
+58            android:name="com.app.radiorodovia.MainActivity"
+58-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:23:13-41
+59            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+59-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:27:13-144
+60            android:exported="true"
+60-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:24:13-36
+61            android:hardwareAccelerated="true"
+61-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:28:13-47
+62            android:launchMode="singleTop"
+62-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:25:13-43
+63            android:theme="@style/LaunchTheme"
+63-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:26:13-47
+64            android:windowSoftInputMode="adjustResize" >
+64-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:29:13-55
+65            <meta-data
+65-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:31:13-33:40
+66                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+66-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:32:17-82
+67                android:value="true" />
+67-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:33:17-37
+68
+69            <intent-filter>
+69-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:34:13-37:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:35:17-68
+70-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:35:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:36:17-76
+72-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:36:27-74
+73            </intent-filter>
+74            <intent-filter>
+74-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:39:13-42:29
+75                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+75-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:40:17-69
+75-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:40:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:41:17-76
+77-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:41:27-73
+78            </intent-filter>
+79        </activity>
+80
+81        <meta-data
+81-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:46:1-49:7
+82            android:name="flutterEmbedding"
+82-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:47:5-36
+83            android:value="2" />
+83-->C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\android\app\src\main\AndroidManifest.xml:48:5-22
+84
+85        <service
+85-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-17:72
+86            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+86-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-107
+87            android:exported="false"
+87-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+88            android:permission="android.permission.BIND_JOB_SERVICE" />
+88-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-69
+89        <service
+89-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-24:19
+90            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+90-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-97
+91            android:exported="false" >
+91-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
+92            <intent-filter>
+92-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
+93                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+93-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
+93-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
+94            </intent-filter>
+95        </service>
+96
+97        <receiver
+97-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33:20
+98            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+98-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-98
+99            android:exported="true"
+99-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-36
+100            android:permission="com.google.android.c2dm.permission.SEND" >
+100-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-73
+101            <intent-filter>
+101-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
+102                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+102-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
+102-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
+103            </intent-filter>
+104        </receiver>
+105
+106        <service
+106-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-39:19
+107            android:name="com.google.firebase.components.ComponentDiscoveryService"
+107-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:35:18-89
+108            android:directBootAware="true"
+108-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6d5a3a0a5b74470c554634026ee6fe70\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+109            android:exported="false" >
+109-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:54:13-37
+110            <meta-data
+110-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-38:85
+111                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+111-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:17-128
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:17-82
+113            <meta-data
+113-->[:firebase_core] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+114-->[:firebase_core] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_core] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:55:13-57:85
+117                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+117-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:56:17-119
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:57:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\a00a4ef468cca732d57af85a89ef3bfb\transformed\jetified-firebase-datatransport-18.1.1\AndroidManifest.xml:28:13-30:85
+120                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+120-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\a00a4ef468cca732d57af85a89ef3bfb\transformed\jetified-firebase-datatransport-18.1.1\AndroidManifest.xml:29:17-115
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\a00a4ef468cca732d57af85a89ef3bfb\transformed\jetified-firebase-datatransport-18.1.1\AndroidManifest.xml:30:17-82
+122            <meta-data
+122-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\eb13367c51770d26d1b8cc3f4fd3ca7a\transformed\jetified-play-services-measurement-api-20.1.1\AndroidManifest.xml:31:13-33:85
+123                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+123-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\eb13367c51770d26d1b8cc3f4fd3ca7a\transformed\jetified-play-services-measurement-api-20.1.1\AndroidManifest.xml:32:17-139
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\eb13367c51770d26d1b8cc3f4fd3ca7a\transformed\jetified-play-services-measurement-api-20.1.1\AndroidManifest.xml:33:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\b313e13950d9be2602262c4f62249627\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+126                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+126-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\b313e13950d9be2602262c4f62249627\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\b313e13950d9be2602262c4f62249627\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+128        </service>
+129
+130        <provider
+130-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-45:38
+131            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+131-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-102
+132            android:authorities="com.app.radiorodovia.flutterfirebasemessaginginitprovider"
+132-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-88
+133            android:exported="false"
+133-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-37
+134            android:initOrder="99" />
+134-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-35
+135
+136        <receiver
+136-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:40
+137            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+137-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-97
+138            android:exported="false" />
+138-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
+139        <receiver
+139-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-27:20
+140            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+140-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-101
+141            android:exported="false" >
+141-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
+142            <intent-filter>
+142-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-26:29
+143                <action android:name="android.intent.action.BOOT_COMPLETED" />
+143-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-79
+143-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-76
+144                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+144-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-84
+144-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:25-81
+145                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+145-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-82
+145-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-79
+146                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+146-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-82
+146-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-79
+147            </intent-filter>
+148        </receiver>
+149
+150        <activity
+150-->[:url_launcher_android] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+151            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+151-->[:url_launcher_android] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+152            android:exported="false"
+152-->[:url_launcher_android] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+153            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+153-->[:url_launcher_android] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+154
+155        <receiver
+155-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-16:40
+156            android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver"
+156-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-108
+157            android:exported="false" />
+157-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+158        <receiver
+158-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-23:20
+159            android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver"
+159-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-107
+160            android:exported="false" >
+160-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+161            <intent-filter>
+161-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:29
+162                <action android:name="android.intent.action.MEDIA_BUTTON" />
+162-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-77
+162-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:21:25-74
+163            </intent-filter>
+164        </receiver>
+165
+166        <service
+166-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-35:19
+167            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
+167-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-101
+168            android:enabled="true"
+168-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-35
+169            android:exported="true" >
+169-->[:assets_audio_player] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-36
+170
+171            <!--
+172            <intent-filter>
+173                <action android:name="android.intent.action.MEDIA_BUTTON" />
+174            </intent-filter>
+175            -->
+176        </service>
+177
+178        <meta-data
+178-->[:google_mobile_ads] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\google_mobile_ads\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-14:36
+179            android:name="io.flutter.embedded_views_preview"
+179-->[:google_mobile_ads] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\google_mobile_ads\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-61
+180            android:value="true" />
+180-->[:google_mobile_ads] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\google_mobile_ads\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-33
+181
+182        <provider
+182-->[:share_plus] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+183            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+183-->[:share_plus] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+184            android:authorities="com.app.radiorodovia.flutter.share_provider"
+184-->[:share_plus] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+185            android:exported="false"
+185-->[:share_plus] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+186            android:grantUriPermissions="true" >
+186-->[:share_plus] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+187            <meta-data
+187-->[:share_plus] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:68
+188                android:name="android.support.FILE_PROVIDER_PATHS"
+188-->[:share_plus] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+189                android:resource="@xml/flutter_share_file_paths" />
+189-->[:share_plus] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-65
+190        </provider>
+191
+192        <uses-library
+192-->[androidx.window:window:1.0.0-beta04] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6f0aef16ccbd341f970da175f41f2a94\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+193            android:name="androidx.window.extensions"
+193-->[androidx.window:window:1.0.0-beta04] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6f0aef16ccbd341f970da175f41f2a94\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+194            android:required="false" />
+194-->[androidx.window:window:1.0.0-beta04] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6f0aef16ccbd341f970da175f41f2a94\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+195        <uses-library
+195-->[androidx.window:window:1.0.0-beta04] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6f0aef16ccbd341f970da175f41f2a94\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+196            android:name="androidx.window.sidecar"
+196-->[androidx.window:window:1.0.0-beta04] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6f0aef16ccbd341f970da175f41f2a94\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+197            android:required="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+197-->[androidx.window:window:1.0.0-beta04] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6f0aef16ccbd341f970da175f41f2a94\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+198        <activity
+198-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:49:9-53:64
+199            android:name="com.google.android.gms.ads.AdActivity"
+199-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:50:13-65
+200            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+200-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:51:13-122
+201            android:exported="false"
+201-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:52:13-37
+202            android:theme="@android:style/Theme.Translucent" />
+202-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:53:13-61
+203
+204        <provider
+204-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:55:9-59:39
+205            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+205-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:56:13-76
+206            android:authorities="com.app.radiorodovia.mobileadsinitprovider"
+206-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:57:13-73
+207            android:exported="false"
+207-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:58:13-37
+208            android:initOrder="100" />
+208-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:59:13-36
+209
+210        <service
+210-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:61:9-64:40
+211            android:name="com.google.android.gms.ads.AdService"
+211-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:62:13-64
+212            android:enabled="true"
+212-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:63:13-35
+213            android:exported="false" />
+213-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0580e5b529565eba49dd971854780240\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:64:13-37
+214
+215        <provider
+215-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+216            android:name="androidx.startup.InitializationProvider"
+216-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+217            android:authorities="com.app.radiorodovia.androidx-startup"
+217-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+218            android:exported="false" >
+218-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+219            <meta-data
+219-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+220                android:name="androidx.work.WorkManagerInitializer"
+220-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+221                android:value="androidx.startup" />
+221-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+222        </provider>
+223
+224        <service
+224-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+225            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+225-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+226            android:directBootAware="false"
+226-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+227            android:enabled="@bool/enable_system_alarm_service_default"
+227-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+228            android:exported="false" />
+228-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+229        <service
+229-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+230            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+230-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+231            android:directBootAware="false"
+231-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+232            android:enabled="@bool/enable_system_job_service_default"
+232-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+233            android:exported="true"
+233-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+234            android:permission="android.permission.BIND_JOB_SERVICE" />
+234-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+235        <service
+235-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+236            android:name="androidx.work.impl.foreground.SystemForegroundService"
+236-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+237            android:directBootAware="false"
+237-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+238            android:enabled="@bool/enable_system_foreground_service_default"
+238-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+239            android:exported="false" />
+239-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+240
+241        <receiver
+241-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+242            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+242-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+243            android:directBootAware="false"
+243-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+244            android:enabled="true"
+244-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+245            android:exported="false" />
+245-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+246        <receiver
+246-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+247            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+247-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+248            android:directBootAware="false"
+248-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+249            android:enabled="false"
+249-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+250            android:exported="false" >
+250-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+251            <intent-filter>
+251-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+252                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+252-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+252-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+253                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+254            </intent-filter>
+255        </receiver>
+256        <receiver
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+257            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+258            android:directBootAware="false"
+258-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+259            android:enabled="false"
+259-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+260            android:exported="false" >
+260-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+261            <intent-filter>
+261-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+262                <action android:name="android.intent.action.BATTERY_OKAY" />
+262-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+262-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+263                <action android:name="android.intent.action.BATTERY_LOW" />
+263-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+263-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+264            </intent-filter>
+265        </receiver>
+266        <receiver
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+267            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+268            android:directBootAware="false"
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+269            android:enabled="false"
+269-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+270            android:exported="false" >
+270-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+271            <intent-filter>
+271-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+272                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+273                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+273-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+273-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+274            </intent-filter>
+275        </receiver>
+276        <receiver
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+277            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+278            android:directBootAware="false"
+278-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+279            android:enabled="false"
+279-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+280            android:exported="false" >
+280-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+281            <intent-filter>
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+282                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+283            </intent-filter>
+284        </receiver>
+285        <receiver
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+286            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+287            android:directBootAware="false"
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+288            android:enabled="false"
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+289            android:exported="false" >
+289-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+290            <intent-filter>
+290-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+291                <action android:name="android.intent.action.BOOT_COMPLETED" />
+291-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-79
+291-->[:flutter_local_notifications] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-76
+292                <action android:name="android.intent.action.TIME_SET" />
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+293                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+294            </intent-filter>
+295        </receiver>
+296        <receiver
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+297            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+298            android:directBootAware="false"
+298-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+299            android:enabled="@bool/enable_system_alarm_service_default"
+299-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+300            android:exported="false" >
+300-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+301            <intent-filter>
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+302                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+302-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+302-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+303            </intent-filter>
+304        </receiver>
+305        <receiver
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+306            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+307            android:directBootAware="false"
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+308            android:enabled="true"
+308-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+309            android:exported="true"
+309-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+310            android:permission="android.permission.DUMP" >
+310-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+311            <intent-filter>
+311-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+312                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\0af3d0b36a45fb370a75bbec44038948\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+313            </intent-filter>
+314        </receiver>
+315        <receiver
+315-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:31:9-38:20
+316            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+316-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:32:13-78
+317            android:exported="true"
+317-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:33:13-36
+318            android:permission="com.google.android.c2dm.permission.SEND" >
+318-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:34:13-73
+319            <intent-filter>
+319-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
+320                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+320-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
+320-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
+321            </intent-filter>
+322        </receiver>
+323        <!--
+324             FirebaseMessagingService performs security checks at runtime,
+325             but set to not exported to explicitly avoid allowing another app to call it.
+326        -->
+327        <service
+327-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:44:9-51:19
+328            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+328-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:45:13-82
+329            android:directBootAware="true"
+329-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:46:13-43
+330            android:exported="false" >
+330-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\9b7de56246c15d7482e9902f746d3352\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:47:13-37
+331            <intent-filter android:priority="-500" >
+331-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
+332                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+332-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
+332-->[:firebase_messaging] C:\Users\Eduardo Lima Work\Desktop\Radio v 1.0.4\Radio v 1.0.4\Radio Flutter App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
+333            </intent-filter>
+334        </service>
+335        <service
+335-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\40cc499f837ca3455d368c6d6f284588\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:29:9-35:19
+336            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+336-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\40cc499f837ca3455d368c6d6f284588\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:30:13-103
+337            android:exported="false" >
+337-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\40cc499f837ca3455d368c6d6f284588\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:31:13-37
+338            <meta-data
+338-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\40cc499f837ca3455d368c6d6f284588\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:32:13-34:39
+339                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+339-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\40cc499f837ca3455d368c6d6f284588\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:33:17-94
+340                android:value="cct" />
+340-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\40cc499f837ca3455d368c6d6f284588\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:34:17-36
+341        </service>
+342        <service
+342-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\492d46399313102a08d9341156720ae1\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:26:9-30:19
+343            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+343-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\492d46399313102a08d9341156720ae1\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:27:13-117
+344            android:exported="false"
+344-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\492d46399313102a08d9341156720ae1\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:28:13-37
+345            android:permission="android.permission.BIND_JOB_SERVICE" >
+345-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\492d46399313102a08d9341156720ae1\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:29:13-69
+346        </service>
+347
+348        <receiver
+348-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\492d46399313102a08d9341156720ae1\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:32:9-34:40
+349            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+349-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\492d46399313102a08d9341156720ae1\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:33:13-132
+350            android:exported="false" />
+350-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\492d46399313102a08d9341156720ae1\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:34:13-37
+351
+352        <provider
+352-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6d5a3a0a5b74470c554634026ee6fe70\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+353            android:name="com.google.firebase.provider.FirebaseInitProvider"
+353-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6d5a3a0a5b74470c554634026ee6fe70\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+354            android:authorities="com.app.radiorodovia.firebaseinitprovider"
+354-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6d5a3a0a5b74470c554634026ee6fe70\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+355            android:directBootAware="true"
+355-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6d5a3a0a5b74470c554634026ee6fe70\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+356            android:exported="false"
+356-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6d5a3a0a5b74470c554634026ee6fe70\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+357            android:initOrder="100" />
+357-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\6d5a3a0a5b74470c554634026ee6fe70\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+358
+359        <activity
+359-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\35ed32e611c8abe61f7f73eab1327d45\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+360            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+360-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\35ed32e611c8abe61f7f73eab1327d45\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+361            android:exported="false"
+361-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\35ed32e611c8abe61f7f73eab1327d45\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+362            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+362-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\35ed32e611c8abe61f7f73eab1327d45\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+363
+364        <receiver
+364-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:29:9-33:20
+365            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+365-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:30:13-85
+366            android:enabled="true"
+366-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:31:13-35
+367            android:exported="false" >
+367-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:32:13-37
+368        </receiver>
+369
+370        <service
+370-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:35:9-38:40
+371            android:name="com.google.android.gms.measurement.AppMeasurementService"
+371-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:36:13-84
+372            android:enabled="true"
+372-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:37:13-35
+373            android:exported="false" />
+373-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:38:13-37
+374        <service
+374-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:39:9-43:72
+375            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+375-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:40:13-87
+376            android:enabled="true"
+376-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:41:13-35
+377            android:exported="false"
+377-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:42:13-37
+378            android:permission="android.permission.BIND_JOB_SERVICE" />
+378-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\bfd8755ddbf60422f41c373a7ddf052e\transformed\jetified-play-services-measurement-20.1.1\AndroidManifest.xml:43:13-69
+379
+380        <meta-data
+380-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\176a4513b38cc0bd30657b699b48cd8f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+381            android:name="com.google.android.gms.version"
+381-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\176a4513b38cc0bd30657b699b48cd8f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+382            android:value="@integer/google_play_services_version" />
+382-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\176a4513b38cc0bd30657b699b48cd8f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+383
+384        <service
+384-->[androidx.room:room-runtime:2.2.5] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\dcc00434033496131ec5059fcb69a84e\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+385            android:name="androidx.room.MultiInstanceInvalidationService"
+385-->[androidx.room:room-runtime:2.2.5] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\dcc00434033496131ec5059fcb69a84e\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+386            android:directBootAware="true"
+386-->[androidx.room:room-runtime:2.2.5] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\dcc00434033496131ec5059fcb69a84e\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+387            android:exported="false" />
+387-->[androidx.room:room-runtime:2.2.5] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\dcc00434033496131ec5059fcb69a84e\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+388
+389        <provider
+389-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\1fb74e8718c729c8afe8d5fa044bd25b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+390            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+390-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\1fb74e8718c729c8afe8d5fa044bd25b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+391            android:authorities="com.app.radiorodovia.lifecycle-process"
+391-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\1fb74e8718c729c8afe8d5fa044bd25b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+392            android:exported="false"
+392-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\1fb74e8718c729c8afe8d5fa044bd25b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+393            android:multiprocess="true" />
+393-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Eduardo Lima Work\.gradle\caches\transforms-3\1fb74e8718c729c8afe8d5fa044bd25b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+394    </application>
+395
+396</manifest>
